@@ -13,6 +13,10 @@
 		A9979B651B773C0500A19408 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9979B641B773C0500A19408 /* Images.xcassets */; };
 		A9979B681B773C0500A19408 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9979B661B773C0500A19408 /* LaunchScreen.xib */; };
 		A9979B741B773C0500A19408 /* wxTabBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9979B731B773C0500A19408 /* wxTabBarTests.swift */; };
+		A9979B7E1B773EF400A19408 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9979B7D1B773EF400A19408 /* FirstViewController.swift */; };
+		A9979B801B773F0200A19408 /* SecontViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9979B7F1B773F0200A19408 /* SecontViewController.swift */; };
+		A9979B821B773F0F00A19408 /* ThiredViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9979B811B773F0F00A19408 /* ThiredViewController.swift */; };
+		A9979B841B773F1A00A19408 /* FouthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9979B831B773F1A00A19408 /* FouthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		A9979B6D1B773C0500A19408 /* wxTabBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wxTabBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9979B721B773C0500A19408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9979B731B773C0500A19408 /* wxTabBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wxTabBarTests.swift; sourceTree = "<group>"; };
+		A9979B7D1B773EF400A19408 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		A9979B7F1B773F0200A19408 /* SecontViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecontViewController.swift; sourceTree = "<group>"; };
+		A9979B811B773F0F00A19408 /* ThiredViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThiredViewController.swift; sourceTree = "<group>"; };
+		A9979B831B773F1A00A19408 /* FouthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FouthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +88,10 @@
 				A9979B5D1B773C0500A19408 /* AppDelegate.swift */,
 				A9979B5F1B773C0500A19408 /* ViewController.swift */,
 				A9979B611B773C0500A19408 /* Main.storyboard */,
+				A9979B7D1B773EF400A19408 /* FirstViewController.swift */,
+				A9979B7F1B773F0200A19408 /* SecontViewController.swift */,
+				A9979B811B773F0F00A19408 /* ThiredViewController.swift */,
+				A9979B831B773F1A00A19408 /* FouthViewController.swift */,
 				A9979B641B773C0500A19408 /* Images.xcassets */,
 				A9979B661B773C0500A19408 /* LaunchScreen.xib */,
 				A9979B5B1B773C0500A19408 /* Supporting Files */,
@@ -212,8 +224,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9979B801B773F0200A19408 /* SecontViewController.swift in Sources */,
+				A9979B841B773F1A00A19408 /* FouthViewController.swift in Sources */,
+				A9979B7E1B773EF400A19408 /* FirstViewController.swift in Sources */,
 				A9979B601B773C0500A19408 /* ViewController.swift in Sources */,
 				A9979B5E1B773C0500A19408 /* AppDelegate.swift in Sources */,
+				A9979B821B773F0F00A19408 /* ThiredViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
